@@ -101,14 +101,10 @@ The diagram below shows how the GPIO pins are connected to the 16 interrupt line
 
 ![image](https://user-images.githubusercontent.com/36288975/227599656-dc4a635f-b5f1-44c8-84c5-ee0a592fa184.png)
 
-
 17. check for execution of the output by switching the board to run mode 
 18. click on the serial port utility 
 ![image](https://github.com/vasanthkumarch/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/36288975/cd2c17fc-afac-4d72-97f9-20db3e63f23f)
 19. click on the run to observe the values 
-
-
-  
 
 ## STM 32 CUBE PROGRAM :
 ```
@@ -230,8 +226,6 @@ void assert_failed(uint8_t *file, uint32_t line)
 }
 #endif
 ```
-
-
 ## Output screen shots of serial port utility   :
  ![image](https://github.com/sanjay5656/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/115128955/e2c31585-7684-4a25-bc08-0d13e72ae3fb)
 
@@ -241,7 +235,6 @@ void assert_failed(uint8_t *file, uint32_t line)
  ![image](https://github.com/sanjay5656/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/115128955/7dd78da0-bf8d-4677-be6e-703186729e1e)
 
 ![image](https://github.com/sanjay5656/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/115128955/8f6c3daf-117f-42f3-89d8-8c89e68b8a38)
- 
  
 ## Result :
 Interfacing a  IR SENSOR and interrupt is generated using external interrupt mode , visualized on serial port.
